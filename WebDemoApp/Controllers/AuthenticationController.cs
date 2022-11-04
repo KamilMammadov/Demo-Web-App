@@ -2,12 +2,11 @@
 
 namespace WebDemoApp.Controllers
 {
-    public class HomeController :Controller
+    public class AuthenticationController : Controller
     {
         public ViewResult Index()
         {
-            return View();  
+            return View();
         }
-
     }
 }

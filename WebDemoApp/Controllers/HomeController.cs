@@ -1,6 +1,12 @@
-﻿namespace WebDemoApp.Controllers
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace WebDemoApp.Controllers
 {
-    public class HomeController
+    public class HomeController :Controller
     {
+        public ViewResult Index()
+        {
+            return View();  
+        }
     }
 }
